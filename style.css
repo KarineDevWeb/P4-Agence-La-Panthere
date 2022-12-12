@@ -716,7 +716,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 28px;
     line-height: 1.4em;
 }
 
@@ -764,7 +764,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(16, 16, 15, 0.809);
     padding: 40px 40px 40px 40px;
 }
 
