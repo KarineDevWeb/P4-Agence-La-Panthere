@@ -662,7 +662,8 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    /* color: #575757!important; */
+    color: black;
 }
 
 .container {
@@ -734,7 +735,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color:white;
 }
 
 h4 {
@@ -786,7 +787,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    /* color: #F3976C!important; */
+    color: white;
 }
 
 .btn-atomic-tangerine {
@@ -884,8 +886,10 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 20px;
+        padding-right: 20px;
+        /* padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right); */
     }
     .bloc-group,
     .bloc-group .bloc {
